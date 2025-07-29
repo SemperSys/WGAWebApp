@@ -1,0 +1,66 @@
+{
+  "vision": {
+    "title": "Our Vision",
+    "statement": "To be a thriving community of believers that gathers to worship, grows in faith, and goes forth to transform Windsor and beyond with the love of Christ.",
+    "details": [
+      "Building authentic relationships with God and each other",
+      "Creating a welcoming environment for all people",
+      "Developing disciples who make disciples",
+      "Serving our community with excellence and compassion"
+    ]
+  },
+  "mission": {
+    "title": "Our Mission",
+    "statement": "Gather. Grow. Go.",
+    "sections": [
+      {
+        "title": "GATHER",
+        "description": "We gather as the body of Christ to worship, fellowship, and celebrate God's goodness together.",
+        "activities": [
+          "Sunday Worship Services",
+          "Midweek Prayer Meetings",
+          "Community Events",
+          "Special Celebrations"
+        ]
+      },
+      {
+        "title": "GROW",
+        "description": "We grow in our relationship with God through discipleship, biblical teaching, and spiritual development.",
+        "activities": [
+          "Bible Study Groups",
+          "Discipleship Programs",
+          "Leadership Development",
+          "Personal Mentoring"
+        ]
+      },
+      {
+        "title": "GO",
+        "description": "We go into our community and the world to share the Gospel and serve others in Christ's name.",
+        "activities": [
+          "Community Outreach",
+          "Mission Trips",
+          "Service Projects",
+          "Evangelism Training"
+        ]
+      }
+    ]
+  },
+  "values": [
+    {
+      "title": "Biblical Foundation",
+      "description": "We believe in the authority and inerrancy of Scripture as our guide for faith and practice."
+    },
+    {
+      "title": "Authentic Community",
+      "description": "We foster genuine relationships built on love, acceptance, and mutual support."
+    },
+    {
+      "title": "Excellence in Worship",
+      "description": "We pursue excellence in all aspects of worship, ministry, and service."
+    },
+    {
+      "title": "Passionate Outreach",
+      "description": "We are committed to reaching our community and the world with God's love."
+    }
+  ]
+}

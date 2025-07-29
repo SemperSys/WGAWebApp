@@ -1,0 +1,44 @@
+{
+  "campaign": {
+    "title": "Making History",
+    "subtitle": "Building Our Forever Home",
+    "description": "We are embarking on an exciting journey to secure a permanent home for Windsor Gospel Assembly. This historic campaign will enable us to purchase a building that will serve our growing congregation and community for generations to come.",
+    "goal": 500000,
+    "raised": 125000,
+    "targetDate": "December 2024",
+    "highlights": [
+      {
+        "title": "Permanent Worship Space",
+        "description": "A beautiful sanctuary designed for meaningful worship experiences",
+        "icon": "Church"
+      },
+      {
+        "title": "Community Programs",
+        "description": "Dedicated spaces for youth programs, small groups, and community events",
+        "icon": "Users"
+      },
+      {
+        "title": "Future Growth",
+        "description": "Room to accommodate our growing congregation and expanding ministries",
+        "icon": "TrendingUp"
+      },
+      {
+        "title": "Legacy Investment",
+        "description": "Building a lasting foundation for future generations",
+        "icon": "Heart"
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Pastor Johnson",
+        "role": "Senior Pastor",
+        "quote": "This building represents more than just a physical space - it's a foundation for the spiritual growth and community impact that God has called us to."
+      },
+      {
+        "name": "Sarah Mitchell",
+        "role": "Ministry Leader",
+        "quote": "Having our own space will allow us to serve our community in ways we've only dreamed of. We're not just making history, we're building the future."
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "image": "https://images.pexels.com/photos/8468470/pexels-photo-8468470.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "caption": "Sunday service was amazing! God's presence was truly felt. 🙏 #WindsorGospel #SundayService",
+      "date": "2024-01-14",
+      "likes": 45
+    },
+    {
+      "id": "2",
+      "image": "https://images.pexels.com/photos/8468541/pexels-photo-8468541.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "caption": "Prayer changes everything. Join us Wednesday nights for prayer meeting. 💫 #PrayerNight #Faith",
+      "date": "2024-01-12",
+      "likes": 32
+    },
+    {
+      "id": "3",
+      "image": "https://images.pexels.com/photos/8468582/pexels-photo-8468582.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "caption": "Our worship team leading us into God's presence. 🎵 #Worship #Music #Praise",
+      "date": "2024-01-10",
+      "likes": 67
+    },
+    {
+      "id": "4",
+      "image": "https://images.pexels.com/photos/8468612/pexels-photo-8468612.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "caption": "Community outreach day! Serving our neighborhood with love. ❤️ #CommunityLove #Outreach",
+      "date": "2024-01-08",
+      "likes": 89
+    },
+    {
+      "id": "5",
+      "image": "https://images.pexels.com/photos/8468665/pexels-photo-8468665.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "caption": "Small groups are where real growth happens! 🌱 #SmallGroups #Growth #Fellowship",
+      "date": "2024-01-06",
+      "likes": 23
+    },
+    {
+      "id": "6",
+      "image": "https://images.pexels.com/photos/8468690/pexels-photo-8468690.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "caption": "Youth night was incredible! Our next generation is on fire for God! 🔥 #Youth #NextGen",
+      "date": "2024-01-04",
+      "likes": 56
+    }
+  ]
+}

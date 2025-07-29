@@ -1,0 +1,83 @@
+{
+  "featured": {
+    "title": "Latest Message",
+    "videoId": "dQw4w9WgXcQ",
+    "thumbnail": "https://images.pexels.com/photos/8468470/pexels-photo-8468470.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "title": "Walking in Faith",
+    "description": "Join us as we explore what it means to walk by faith and not by sight in our daily lives.",
+    "speaker": "Pastor Johnson",
+    "date": "2024-01-14"
+  },
+  "playlists": [
+    {
+      "id": "sunday-messages",
+      "title": "Sunday Messages",
+      "description": "Weekly sermon series and teachings",
+      "videos": [
+        {
+          "videoId": "dQw4w9WgXcQ",
+          "title": "Walking in Faith",
+          "thumbnail": "https://images.pexels.com/photos/8468470/pexels-photo-8468470.jpeg?auto=compress&cs=tinysrgb&w=400",
+          "speaker": "Pastor Johnson",
+          "date": "2024-01-14"
+        },
+        {
+          "videoId": "dQw4w9WgXcQ",
+          "title": "The Power of Prayer",
+          "thumbnail": "https://images.pexels.com/photos/8468541/pexels-photo-8468541.jpeg?auto=compress&cs=tinysrgb&w=400",
+          "speaker": "Pastor Johnson",
+          "date": "2024-01-07"
+        },
+        {
+          "videoId": "dQw4w9WgXcQ",
+          "title": "Love in Action",
+          "thumbnail": "https://images.pexels.com/photos/8468690/pexels-photo-8468690.jpeg?auto=compress&cs=tinysrgb&w=400",
+          "speaker": "Pastor Johnson",
+          "date": "2023-12-31"
+        }
+      ]
+    },
+    {
+      "id": "worship-songs",
+      "title": "Worship & Music",
+      "description": "Worship sessions and musical performances",
+      "videos": [
+        {
+          "videoId": "dQw4w9WgXcQ",
+          "title": "Christmas Worship Night",
+          "thumbnail": "https://images.pexels.com/photos/8468582/pexels-photo-8468582.jpeg?auto=compress&cs=tinysrgb&w=400",
+          "speaker": "Worship Team",
+          "date": "2023-12-24"
+        },
+        {
+          "videoId": "dQw4w9WgXcQ",
+          "title": "Praise & Worship Session",
+          "thumbnail": "https://images.pexels.com/photos/8468612/pexels-photo-8468612.jpeg?auto=compress&cs=tinysrgb&w=400",
+          "speaker": "Worship Team",
+          "date": "2023-12-17"
+        }
+      ]
+    },
+    {
+      "id": "events",
+      "title": "Church Events",
+      "description": "Special events and community gatherings",
+      "videos": [
+        {
+          "videoId": "dQw4w9WgXcQ",
+          "title": "Community Outreach Day",
+          "thumbnail": "https://images.pexels.com/photos/8468665/pexels-photo-8468665.jpeg?auto=compress&cs=tinysrgb&w=400",
+          "speaker": "Ministry Team",
+          "date": "2023-11-25"
+        },
+        {
+          "videoId": "dQw4w9WgXcQ",
+          "title": "Youth Conference 2023",
+          "thumbnail": "https://images.pexels.com/photos/8468723/pexels-photo-8468723.jpeg?auto=compress&cs=tinysrgb&w=400",
+          "speaker": "Youth Pastor",
+          "date": "2023-10-15"
+        }
+      ]
+    }
+  ]
+}

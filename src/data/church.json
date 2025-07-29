@@ -1,0 +1,19 @@
+{
+  "name": "Windsor Gospel Assembly",
+  "tagline": "Gather. Grow. Go.",
+  "makingHistoryTagline": "Making History",
+  "contact": {
+    "email": "info@windsorgospel.org",
+    "phone": "(519) 555-0123",
+    "address": "123 Church Street, Windsor, ON N9A 1B2"
+  },
+  "social": {
+    "youtube": "https://youtube.com/@windsorgospelassembly",
+    "instagram": "https://instagram.com/windsorgospelassembly",
+    "facebook": "https://facebook.com/windsorgospelassembly"
+  },
+  "services": {
+    "sunday": "10:00 AM",
+    "wednesday": "7:00 PM"
+  }
+}
