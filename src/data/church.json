@@ -1,19 +1,19 @@
 {
   "name": "Windsor Gospel Assembly",
-  "tagline": "Gather. Grow. Go.",
+  "tagline": "You belong here",
   "makingHistoryTagline": "Making History",
   "contact": {
-    "email": "info@windsorgospel.org",
+    "email": "info@wgachurch.com",
     "phone": "(519) 555-0123",
-    "address": "123 Church Street, Windsor, ON N9A 1B2"
+    "address": "1695 University Ave W., Windsor, ON N9B 1C3"
   },
   "social": {
-    "youtube": "https://youtube.com/@windsorgospelassembly",
-    "instagram": "https://instagram.com/windsorgospelassembly",
-    "facebook": "https://facebook.com/windsorgospelassembly"
+    "youtube": "https://youtube.com/@wgachurch",
+    "instagram": "https://instagram.com/_w.g.a_",
+    "facebook": "https://facebook.com/wgachurch"
   },
   "services": {
-    "sunday": "10:00 AM",
-    "wednesday": "7:00 PM"
+    "sunday": "10:30 AM",
+    "saturday": "7:00 PM"
   }
 }

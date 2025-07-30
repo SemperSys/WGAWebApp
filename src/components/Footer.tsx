@@ -68,12 +68,12 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold text-beige mb-4">Service Times</h3>
             <div className="space-y-2">
               <div>
-                <span className="font-medium text-beige">Sunday Service:</span>
+                <span className="font-medium text-beige">Sunday Worship Service:</span>
                 <span className="text-gray-300 ml-2">{churchData.services.sunday}</span>
               </div>
               <div>
-                <span className="font-medium text-beige">Wednesday Prayer:</span>
-                <span className="text-gray-300 ml-2">{churchData.services.wednesday}</span>
+                <span className="font-medium text-beige">Saturday Bible Study:</span>
+                <span className="text-gray-300 ml-2">{churchData.services.saturday}</span>
               </div>
             </div>
           </div>
