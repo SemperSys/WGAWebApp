@@ -8,37 +8,48 @@ const Home: React.FC = () => {
   const progressPercentage = (makingHistoryData.campaign.raised / makingHistoryData.campaign.goal) * 100;
 
   return (
-    <div className="space-y-16">
+    <div className="">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-navy to-charcoal-gray text-cream">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Welcome to {churchData.name}
-            </h1>
-            <p className="text-xl md:text-2xl text-beige mb-8">
-              {churchData.tagline}
-            </p>
-            <p className="text-lg text-gray-300 mb-12 max-w-3xl mx-auto">
-              Join us as we gather to worship, grow in faith, and go forth to make a difference in our community and beyond.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                to="/about"
-                className="bg-beige text-navy px-8 py-3 rounded-lg font-semibold hover:bg-cream transition-colors duration-200 flex items-center justify-center"
-              >
-                Learn More
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-              <Link
-                to="/making-history"
-                className="border-2 border-beige text-beige px-8 py-3 rounded-lg font-semibold hover:bg-beige hover:text-navy transition-colors duration-200"
-              >
-                Making History Campaign
-              </Link>
+      <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
+        <video
+          className="absolute inset-0 w-full h-full object-cover"
+          src="https://cdn.pixabay.com/video/2022/09/11/130992-749689265_medium.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+        />
+        <div className="relative z-10 text-center text-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+            <div className="text-center">
+              <h1 className="text-4xl md:text-6xl font-bold mb-6">
+                Welcome to {churchData.name}
+              </h1>
+              <p className="text-xl md:text-2xl text-beige mb-8">
+                {churchData.tagline}
+              </p>
+              <p className="text-lg text-gray-300 mb-12 max-w-3xl mx-auto">
+                Join us as we gather to worship, grow in faith, and go forth to make a difference in our community and beyond.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Link
+                  to="/about"
+                  className="bg-beige text-navy px-8 py-3 rounded-lg font-semibold hover:bg-cream transition-colors duration-200 flex items-center justify-center"
+                >
+                  Learn More
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Link>
+                <Link
+                  to="/making-history"
+                  className="border-2 border-beige text-beige px-8 py-3 rounded-lg font-semibold hover:bg-beige hover:text-navy transition-colors duration-200"
+                >
+                  Making History Campaign
+                </Link>
+              </div>
             </div>
           </div>
         </div>
+        <div className="absolute inset-0 bg-black/60" />
       </section>
 
       {/* Making History Campaign Highlight */}
@@ -58,7 +69,7 @@ const Home: React.FC = () => {
               <p className="text-lg text-charcoal-gray mb-8">
                 {makingHistoryData.campaign.description}
               </p>
-              
+
               <div className="mb-8">
                 <div className="flex justify-between items-center mb-2">
                   <span className="text-navy font-semibold">Progress</span>
@@ -89,9 +100,9 @@ const Home: React.FC = () => {
             <div className="grid grid-cols-2 gap-6">
               {makingHistoryData.campaign.highlights.map((highlight, index) => {
                 const IconComponent = highlight.icon === 'Church' ? Church :
-                                   highlight.icon === 'Users' ? Users :
-                                   highlight.icon === 'TrendingUp' ? TrendingUp : Heart;
-                
+                  highlight.icon === 'Users' ? Users :
+                    highlight.icon === 'TrendingUp' ? TrendingUp : Heart;
+
                 return (
                   <div key={index} className="bg-cream p-6 rounded-lg shadow-md">
                     <IconComponent className="h-8 w-8 text-navy mb-4" />

@@ -15,7 +15,8 @@
     "sections": [
       {
         "title": "GATHER",
-        "description": "We gather as the body of Christ to worship, fellowship, and celebrate God's goodness together.",
+        "inBracket": "the Believers",
+        "description": "WGA is more than a meeting place—it’s a family rooted in Christ. We pursue unity in both doctrine (what we believe) and direction (where we’re going). Our community intentionally embraces diversity across race, gender, age, and background. Personal worship is encouraged daily, while corporate worship is expressed through media and in-person gatherings. Every message, song, and sacrament is crafted to glorify Christ and humble self. Our worship transforms barrenness into fruitfulness, sorrow into joy, and pain into victory.",
         "activities": [
           "Sunday Worship Services",
           "Midweek Prayer Meetings",
@@ -25,7 +26,8 @@
       },
       {
         "title": "GROW",
-        "description": "We grow in our relationship with God through discipleship, biblical teaching, and spiritual development.",
+        "inBracket": "in the Word and Spirit",
+        "description": "At WGA, spiritual growth is rooted in both the truth of God’s Word and an ongoing relationship with the Holy Spirit. We pursue depth through doctrinal preaching, in-depth Bible study, small groups, and personal discipleship. But growth is more than learning—it’s seeking the Person of the Holy Spirit daily. Through prayer, worship, and sensitivity to His leading, we learn to walk in step with Him. As the Spirit illuminates Scripture and shapes our hearts, we’re empowered to live boldly and reach others with the truth of the Gospel.",
         "activities": [
           "Bible Study Groups",
           "Discipleship Programs",
@@ -35,7 +37,8 @@
       },
       {
         "title": "GO",
-        "description": "We go into our community and the world to share the Gospel and serve others in Christ's name.",
+        "inBracket": "with Care",
+        "description": "WGA lives out Christ’s love through intentional care—within our church and beyond. We serve the Body through hospital visits, grief care, prayer, counseling, and acts of kindness. Our outreach extends to the broader community through benevolence, social responsibility, and practical service. Evangelism is not just an event—it’s a lifestyle of compassionate witness. By meeting real needs with grace and purpose, we embody the hands and feet of Jesus to those near and far.",
         "activities": [
           "Community Outreach",
           "Mission Trips",

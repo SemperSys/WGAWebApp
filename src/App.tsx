@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
-import Vision from './pages/Vision';
+//import Vision from './pages/Vision';
 import Mission from './pages/Mission';
 import Media from './pages/Media';
 import Instagram from './pages/Instagram';
@@ -20,7 +20,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/vision" element={<Vision />} />
+            {/*<Route path="/vision" element={<Vision />} />*/}
             <Route path="/mission" element={<Mission />} />
             <Route path="/media" element={<Media />} />
             <Route path="/instagram" element={<Instagram />} />
