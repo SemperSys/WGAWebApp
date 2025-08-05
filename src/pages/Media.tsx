@@ -9,23 +9,29 @@ const Media: React.FC = () => {
     window.open(`https://www.youtube.com/watch?v=${videoId}`, '_blank');
   };
 
-  return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <div className="text-center mb-16">
-        <h1 className="text-4xl md:text-5xl font-bold text-navy mb-6">
+  return (<>
+    <div
+      className="parallax-bg h-[40vh] flex items-center justify-center mb-16"
+      style={{
+        backgroundImage: "url('https://images.pexels.com/photos/8468470/pexels-photo-8468470.jpeg?auto=compress&cs=tinysrgb&w=1200')"
+      }}
+    >
+      <div className="bg-navy/70 p-8 rounded-lg text-center w-full max-w-3xl mx-auto">
+        <h1 className="text-4xl md:text-5xl font-bold text-cream mb-6">
           Media & Messages
         </h1>
-        <p className="text-xl text-charcoal-gray max-w-3xl mx-auto">
+        <p className="text-lg text-cream max-w-3xl mx-auto">
           Watch our latest sermons, worship sessions, and special events. Join us online anytime!
         </p>
       </div>
-
+    </div>
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
       {/* Featured Video */}
       <div className="mb-16">
         <h2 className="text-3xl font-bold text-navy mb-8 text-center">Featured Message</h2>
         <div className="bg-beige rounded-lg p-8 shadow-lg">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            <div 
+            <div
               className="relative cursor-pointer group"
               onClick={() => handleVideoClick(youtubeData.featured.videoId)}
             >
@@ -68,18 +74,17 @@ const Media: React.FC = () => {
       {/* Playlists */}
       <div>
         <h2 className="text-3xl font-bold text-navy mb-8 text-center">Video Collections</h2>
-        
+
         {/* Playlist Tabs */}
         <div className="flex flex-wrap justify-center gap-4 mb-8">
           {youtubeData.playlists.map((playlist) => (
             <button
               key={playlist.id}
               onClick={() => setSelectedPlaylist(playlist)}
-              className={`px-6 py-3 rounded-lg font-semibold transition-colors duration-200 ${
-                selectedPlaylist.id === playlist.id
+              className={`px-6 py-3 rounded-lg font-semibold transition-colors duration-200 ${selectedPlaylist.id === playlist.id
                   ? 'bg-navy text-cream'
                   : 'bg-beige text-navy hover:bg-charcoal-gray hover:text-cream'
-              }`}
+                }`}
             >
               {playlist.title}
             </button>
@@ -95,7 +100,7 @@ const Media: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {selectedPlaylist.videos.map((video, index) => (
-              <div 
+              <div
                 key={index}
                 className="bg-beige rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-200 cursor-pointer"
                 onClick={() => handleVideoClick(video.videoId)}
@@ -139,7 +144,7 @@ const Media: React.FC = () => {
           Don't miss any of our latest messages and events. Subscribe to our YouTube channel for weekly updates!
         </p>
         <a
-          href="https://youtube.com/@windsorgospelassembly"
+          href="https://youtube.com/@wgachurch"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-beige text-navy px-8 py-3 rounded-lg font-semibold hover:bg-cream transition-colors duration-200 inline-flex items-center"
@@ -149,6 +154,7 @@ const Media: React.FC = () => {
         </a>
       </div>
     </div>
+  </>
   );
 };
 

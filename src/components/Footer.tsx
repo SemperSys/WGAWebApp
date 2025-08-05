@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <Church className="h-8 w-8 text-beige" />
+              <img src={"/public/logo-white.png"} alt="Church Logo" className="h-10 w-10 mr-4" /> 
               <div>
                 <div className="text-xl font-bold">{churchData.name}</div>
                 <div className="text-beige">{churchData.tagline}</div>

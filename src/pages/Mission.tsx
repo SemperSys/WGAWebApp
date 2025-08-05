@@ -11,7 +11,7 @@ const Mission: React.FC = () => {
 
   return (<>
     <div
-      className="parallax-bg h-[40vh] flex items-center justify-center mb-16 rounded-lg"
+      className="parallax-bg h-[40vh] flex items-center justify-center mb-16"
       style={{
         backgroundImage: "url('https://images.pexels.com/photos/8468470/pexels-photo-8468470.jpeg?auto=compress&cs=tinysrgb&w=1200')"
       }}

@@ -24,7 +24,7 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <Church className="h-8 w-8 text-beige" />
+              <img src={"/public/logo-white.png"} alt="Church Logo" className="h-10 w-10 mr-4" /> 
               <div>
                 <div className="text-cream font-bold text-lg">{churchData.name}</div>
                 <div className="text-beige text-xs">{churchData.tagline}</div>

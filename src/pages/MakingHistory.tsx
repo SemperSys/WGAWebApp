@@ -6,21 +6,26 @@ const MakingHistory: React.FC = () => {
   const progressPercentage = (makingHistoryData.campaign.raised / makingHistoryData.campaign.goal) * 100;
   const remaining = makingHistoryData.campaign.goal - makingHistoryData.campaign.raised;
 
-  return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      {/* Hero Section */}
-      <div className="text-center mb-16">
-        <h1 className="text-4xl md:text-6xl font-bold text-navy mb-6">
+  return (<>
+    <div
+      className="parallax-bg h-[40vh] flex items-center justify-center mb-16"
+      style={{
+        backgroundImage: "url('https://images.pexels.com/photos/8468470/pexels-photo-8468470.jpeg?auto=compress&cs=tinysrgb&w=1200')"
+      }}
+    >
+      <div className="bg-navy/70 p-8 rounded-lg text-center w-full max-w-3xl mx-auto">
+        <h1 className="text-4xl md:text-5xl font-bold text-cream mb-6">
           {makingHistoryData.campaign.title}
         </h1>
-        <p className="text-2xl text-charcoal-gray font-semibold mb-4">
+        <p className="text-2xl text-beige font-semibold mb-4">
           {makingHistoryData.campaign.subtitle}
         </p>
-        <p className="text-xl text-charcoal-gray max-w-4xl mx-auto">
+        <p className="text-lg text-cream max-w-3xl mx-auto">
           {makingHistoryData.campaign.description}
         </p>
       </div>
-
+    </div>
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       {/* Progress Section */}
       <div className="bg-beige rounded-lg p-8 md:p-12 mb-16">
         <div className="text-center mb-8">
@@ -88,9 +93,9 @@ const MakingHistory: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {makingHistoryData.campaign.highlights.map((highlight, index) => {
             const IconComponent = highlight.icon === 'Church' ? Church :
-                               highlight.icon === 'Users' ? Users :
-                               highlight.icon === 'TrendingUp' ? TrendingUp : Heart;
-            
+              highlight.icon === 'Users' ? Users :
+                highlight.icon === 'TrendingUp' ? TrendingUp : Heart;
+
             return (
               <div key={index} className="bg-cream p-8 rounded-lg shadow-lg">
                 <div className="flex items-start space-x-4">
@@ -144,11 +149,11 @@ const MakingHistory: React.FC = () => {
         <div>
           <h2 className="text-3xl font-bold text-navy mb-6">A Vision Becoming Reality</h2>
           <p className="text-lg text-charcoal-gray mb-6">
-            For years, we've dreamed of having a permanent home where our church family can gather, 
+            For years, we've dreamed of having a permanent home where our church family can gather,
             grow, and serve our community. That dream is now within reach, and we need your help to make it a reality.
           </p>
           <p className="text-lg text-charcoal-gray mb-8">
-            This building will serve not just our current congregation, but future generations who will 
+            This building will serve not just our current congregation, but future generations who will
             continue the mission of spreading God's love throughout Windsor and beyond.
           </p>
           <div className="bg-beige p-6 rounded-lg">
@@ -157,7 +162,7 @@ const MakingHistory: React.FC = () => {
               <h3 className="text-xl font-semibold text-navy">Our Goal</h3>
             </div>
             <p className="text-charcoal-gray">
-              To raise ${makingHistoryData.campaign.goal.toLocaleString()} by {makingHistoryData.campaign.targetDate} 
+              To raise ${makingHistoryData.campaign.goal.toLocaleString()} by {makingHistoryData.campaign.targetDate}
               to secure and prepare our new church home.
             </p>
           </div>
@@ -168,7 +173,7 @@ const MakingHistory: React.FC = () => {
       <div className="text-center bg-beige rounded-lg p-8 md:p-12">
         <h2 className="text-3xl font-bold text-navy mb-4">Join Us in Making History</h2>
         <p className="text-xl text-charcoal-gray mb-8 max-w-3xl mx-auto">
-          Every gift, no matter the size, brings us closer to our goal. Together, we can secure a lasting 
+          Every gift, no matter the size, brings us closer to our goal. Together, we can secure a lasting
           legacy for our church family and the Windsor community.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -187,7 +192,8 @@ const MakingHistory: React.FC = () => {
           </a>
         </div>
       </div>
-    </div>
+    </div >
+  </>
   );
 };
 
