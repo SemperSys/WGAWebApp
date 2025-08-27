@@ -13,6 +13,7 @@ import Giving from './pages/Giving';
 
 function App() {
   return (
+    
     <Router>
       <div className="min-h-screen bg-cream">
         <Header />
